@@ -24,9 +24,11 @@ class XfermodeMainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         xfermode_btn_pie_support_open.setOnClickListener {
+            xfermode_tv_corner_status.text = xfermode_btn_pie_support_open.text
             xfermode_img_round_bottom_corner.supportPie = true
         }
         xfermode_btn_pie_support_close.setOnClickListener {
+            xfermode_tv_corner_status.text = xfermode_btn_pie_support_close.text
             xfermode_img_round_bottom_corner.supportPie = false
         }
     }
