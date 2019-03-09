@@ -7,14 +7,34 @@
         android:layout_height="match_parent"
         tools:context=".xfermodeView.XfermodeMainFragment">
 
-    <Button
+    <LinearLayout
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:id="@+id/btn_main_xfermode"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="jump to xfermode"
-    />
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content">
+        <Button
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textAllCaps="false"
+                android:id="@+id/btn_main_xfermode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="jump to xfermode"/>
+
+        <Button
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:id="@+id/btn_main_fixAppbarBehavior"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="jump to fixAppBarBehavior"/>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

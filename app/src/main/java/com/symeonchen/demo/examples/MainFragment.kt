@@ -25,7 +25,13 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        btn_main_xfermode.setOnClickListener { Navigation.findNavController(it).navigate(R.id.action_mainFragment_to_xfermodeMainFragment2)}
+        btn_main_xfermode.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.action_mainFragment_to_xfermodeMainFragment2)
+        }
+        btn_main_fixAppbarBehavior.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.action_mainFragment_to_fixAppbarMainFragment)
+        }
     }
+
 
 }

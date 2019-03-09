@@ -2,6 +2,11 @@
     <string name="app_name">Examples</string>
 
     <!--xfermode-->
-    <string name="support_xfermode"></string>
+
+    <!--FixAppbarBehavior-->
+    <string name="fix_appbar_shake_behavior" translatable="false">
+        com.symeonchen.demo.examples.fixAppbarBehavior.Behavior.FixScrollShakeBehavior
+    </string>
+
 
 </resources>

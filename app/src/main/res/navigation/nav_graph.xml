@@ -7,8 +7,13 @@
               android:label="MainFragment">
         <action android:id="@+id/action_mainFragment_to_xfermodeMainFragment2"
                 app:destination="@id/xfermodeMainFragment"/>
+        <action android:id="@+id/action_mainFragment_to_fixAppbarMainFragment"
+                app:destination="@id/fixAppbarMainFragment"/>
     </fragment>
     <fragment android:id="@+id/xfermodeMainFragment"
               android:name="com.symeonchen.demo.examples.xfermodeView.XfermodeMainFragment"
               android:label="fragment_xfermode_main" tools:layout="@layout/fragment_xfermode_main"/>
+    <fragment android:id="@+id/fixAppbarMainFragment"
+              android:name="com.symeonchen.demo.examples.fixAppbarBehavior.FixAppbarMainFragment"
+              android:label="fragment_fix_appbar_main" tools:layout="@layout/fragment_fix_appbar_main"/>
 </navigation>
