@@ -14,7 +14,7 @@ class FixAppbarMainFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_fix_appbar_main, container, false)
+        return inflater.inflate(R.layout.fix_appbar_behavior_fragment_main, container, false)
     }
 
 

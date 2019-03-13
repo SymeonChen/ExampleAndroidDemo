@@ -1,8 +1,8 @@
 package com.symeonchen.demo.examples.fixTvReuse
 
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.symeonchen.demo.examples.fixTvReuse.Bean.User
 
 class FixTvReuseViewModel : ViewModel() {
     var userList = MutableLiveData<ArrayList<User>>()

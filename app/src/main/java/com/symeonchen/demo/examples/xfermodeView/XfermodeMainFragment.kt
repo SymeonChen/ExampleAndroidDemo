@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.symeonchen.demo.examples.R
-import kotlinx.android.synthetic.main.fragment_xfermode_main.*
+import kotlinx.android.synthetic.main.xfermode_view_fragment_main.*
 
 
 class XfermodeMainFragment : Fragment() {
@@ -18,7 +18,7 @@ class XfermodeMainFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_xfermode_main, container, false)
+        return inflater.inflate(R.layout.xfermode_view_fragment_main, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
