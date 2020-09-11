@@ -12,8 +12,8 @@
     </fragment>
     <fragment android:id="@+id/xfermodeMainFragment"
               android:name="com.symeonchen.demo.examples.xfermodeView.XfermodeMainFragment"
-              android:label="fragment_xfermode_main" tools:layout="@layout/fragment_xfermode_main"/>
+              android:label="fragment_xfermode_main" tools:layout="@layout/xfermode_view_fragment_main"/>
     <fragment android:id="@+id/fixAppbarMainFragment"
               android:name="com.symeonchen.demo.examples.fixAppbarBehavior.FixAppbarMainFragment"
-              android:label="fragment_fix_appbar_main" tools:layout="@layout/fragment_fix_appbar_main"/>
+              android:label="fragment_fix_appbar_main" tools:layout="@layout/fix_appbar_behavior_fragment_main"/>
 </navigation>
